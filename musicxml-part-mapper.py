@@ -16,7 +16,7 @@ import tempfile
 EXT_APPLICATION = "MuseScore" # if not defined => hide button to launch application
 EXT_APP_PATH =  "~/.local/bin/mscore4portable"
 LOGFILE = "part-mapper.log"
-WORK_DIRECTORY = "/home/charles/musicxml-merger"  # Change this to your desired directory
+WORK_DIRECTORY = ""  # Change this to your desired directory
 
 #-----------------------------------------------------------------
 # EXT_APP_PATH - if musescore:
