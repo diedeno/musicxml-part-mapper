@@ -93,6 +93,8 @@ python musicxml-part-mapper.py
         <arg>{}</arg>
     </plugin>
 
+
+![screenshot](pictures/Audiveris-partmapper.png)
    
 ### Optional: Integrate your Notation application (Musescore).
  - Edit these variables at the beginning of the python script. Only tested with MuseScore - but should probably also work with other applications. If EXT_APPLICATION is not definded, the button will not show.
