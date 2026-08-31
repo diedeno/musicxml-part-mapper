@@ -108,12 +108,12 @@ python musicxml-part-mapper.py
 
 ### File Not Found
 
-- Ensure that `instruments.xml` is in the same directory as the script or specify its path using the `--instruments` argument.
+- Ensure that `instruments.xml` is in the same directory as the script.
 - Ensure that the MusicXML file exists and is accessible.
 
 ### Log File
 
-- The application creates a log file (`part-assign.log`) in the same directory as the script. Check this file for error messages.
+- The application creates a log file (`part-mapper.log`) in the same directory as the script. Check this file for error messages.
 
 ### MuseScore Not Found
 
