@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 import tkinter as tk
 import xml.etree.ElementTree as ET
