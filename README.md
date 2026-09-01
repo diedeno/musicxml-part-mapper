@@ -33,7 +33,22 @@ The MusicXML Part & Instrument Mapper is a tool designed to help you map instrum
    - `instruments.xml`
 
 2. Place both files in the same directory.  
-3. Install required Python packages (if any):
+3. Edit the script as needed. 
+```bash   
+# USER EDITABLE
+EXT_APPLICATION = "MuseScore" # if not defined => hide button to launch application
+EXT_APP_PATH =  "~/.local/bin/mscore4portable"
+LOGFILE = "part-mapper.log"
+WORK_DIRECTORY = ""  # Change this to your desired directory
+
+#-----------------------------------------------------------------
+# EXT_APP_PATH - if musescore:
+#    On Linux: ~/.local/bin/mscore4portable
+#    On Windows: C:/Program Files/MuseScore 4/bin/MuseScore4.exe
+#    On macOS: /Applications/MuseScore 4.app/Contents/MacOS/mscore
+# But any other application can be used
+#---------------------------------------------------------------
+```
 
 ---
 
